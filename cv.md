@@ -13,5 +13,19 @@
 ### **Summary**
 ##### I graduated from Belarusian State University with a degree in World Economy. After 3 years of work in B2B sales I decided to learn something new and develop myself in Frontend Development. The last year I have been studing by myself HTML, CSS, JavaScript and here I would like to receive deeper knowledges and skills. 
 
+---
+### **Experience:**
+2 years of work as a business development manager in Technoton company. 1 year of active sales in ICOL Group.
+
+### **Skills**
+* HTML
+* CSS
+* JavaScript
+* Git
+
+### **Languages:**
+- Russian (native)
+- English (B2)
+- Spanish (C1)
 
 
