@@ -28,4 +28,20 @@
 - English (B2)
 - Spanish (C1)
 
+---
 
+### **Code example:**
+```
+function squareDigits(num){
+  let str = num.toString();
+  let arr = [];
+  for (let i = 0; i < str.length; i++) {
+    let digit = +str.charAt(i);
+    arr[i] = digit * digit;
+  }
+  return +arr.join("");
+}
+```
+---
+### Projects:
+[CV in Markdown format](https://github.com/AnastasiaGalaxy/rsschool-cv.git)
