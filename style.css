@@ -1,3 +1,143 @@
-#first-block {
-    font-size: 20px;
+@font-face {
+    font-family: 'Poppins';
+    src: url("assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+   }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+    font-weight: 300;
+   }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+   }
+
+* {
+    box-sizing: border-box; 
+  }
+
+body {
+    font-family: 'Poppins';
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3d1919;
+   }
+
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
+
+#profile {
+    display: flex;
+}
+
+.added-flex-to-main-part {
+    align-items: stretch;
+    border-top: 2px solid #9da89e;
+}
+
+.short-info {
+    /*border: 1px solid yellow;*/
+    width: 45em;
+    padding: 0px 1em;
+    border-right: 2px solid #9da89e;
+}
+
+.main-info {
+    /*border: 1px solid grey;*/
+    flex-grow: 3;
+    padding: 0px 1em;
+    overflow: hidden;
+}
+
+.name-position-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    /*border: 1px solid green;*/
+    flex-grow: 1;
+    margin: auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #829985;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    margin: 0px 5px;
+    line-height: 50px;
+}
+
+.nav-link {
+    transition: .3s;
+  }
+
+#profile {
+    /*border: 1px solid pink;*/
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+.section-item a:hover {
+    color: #4d2323;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+#footer-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    }
+
+footer>div>ul>li {
+margin: 0px 120px;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.section-title {
+    font-size: 20px;
+    color: #3d1919;
+  }
